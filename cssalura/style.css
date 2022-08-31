@@ -1,0 +1,227 @@
+body{
+
+    font-family: 'Coiny', cursive;
+
+}
+
+
+header{
+    background-color: grey;
+    padding: 20px 0;
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+
+}
+
+
+nav a{
+text-decoration: none;
+font-size: 22px;
+font-weight: bold;
+color:#000000;
+text-transform: uppercase;
+
+}
+
+nav a:hover{
+
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+    }
+
+.productos li{
+ display: inline-block;
+text-align: center;
+width: 29%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 1.5px solid #000000;
+border-radius: 20px;
+}
+
+.productos li:hover{
+border-color: coral;
+
+}
+
+.productos li:active{
+
+border-color: green;
+
+}
+
+
+.productos{
+
+width: 940px;
+margin: 0 auto;
+padding: 50px;
+}
+
+.productos h2{
+
+font-size: 30px;
+font-weight: bold;
+
+}
+
+.productos li:hover h2{
+font-size: 33px;
+
+}
+
+
+.descripcion{
+     font-weight: bold;
+     font-size: 18px;
+}
+
+.precio{
+font-size: 25px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+footer {
+
+    text-align: center;
+    background-color: black;
+    padding:40px;
+
+}
+
+.copyright{
+     font-size: 13px;
+    color: #FFFFFF;
+    margin: 13px;
+}
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label, form legend{
+
+display: block;
+font-size: 20px;
+margin: 0 0 10px;
+
+}
+
+.input-padron{
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+form{
+
+    margin: 40px 0;
+}
+
+.chekar{
+
+    margin: 20px auto;
+}
+
+.botonenviar{
+
+     width: 40%;
+     padding: 15px 0;
+     font-size: 15px;
+     font-weight: bold;
+     background-color: lightgreen;
+     color: black;
+     border: none;
+     border-radius: 10px;
+     transition: 1s all;
+     cursor: pointer;
+}
+
+.botonenviar:hover{
+    background-color: green;
+    transform:scale(1.2);
+    }
+
+table{
+
+    margin: 40px 40px;
+}
+
+thead{
+
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+td,th{
+     
+    border: 1px solid #000000;
+    padding: 9px 10px;
+}
+
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
